@@ -51,6 +51,11 @@
             background-color: #ddd;
             color: black;
         }
+        .contact{border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            
+        }
     </style>
 </head>
 
@@ -74,11 +79,34 @@
             with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
     </div>
-
+    <hr>
     <div class="footer">
         <h1>Footer</h1>
         <h3>Copyright &copy; 2020 - Hacktoberfest</h3>
         <p>Thank you for joining this webinar</p>
+    </div>
+    <div class="contact">
+        <form action="/index.html">
+        <h3>Take a minute to give a feedback :)</h3>
+        <hr>
+        <h4>What should we call you?</h4>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="First name"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Lat name"><br><br>
+
+
+        <h4>Did you find the workshop useful?</h4>
+        <input type="radio">
+        <label for="yes">Yesss!</label><br>
+        <input type="radio">
+        <label for="hmm">Maybe</label><br>
+        <input type="radio">
+        <label for="other">No</label>
+
+        <input type="submit" value="Submit">
+    </form>
+
     </div>
 
 </body>
